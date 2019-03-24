@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 
+import styles from "./Shell.module.scss";
+
 class Shell extends Component {
   render() {
-    return <div className="Shell">Hello World</div>;
+    return <div className={styles.shell}>Hello World</div>;
   }
 }
 
