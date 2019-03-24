@@ -38,9 +38,11 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "@storybook/addon-actions": "^5.0.4",
     "@storybook/addon-centered": "^3.4.12",
+    "@storybook/addon-knobs": "^3.4.12",
     "@storybook/addon-links": "^5.0.4",
     "@storybook/react": "^5.0.4",
     "@types/storybook__addon-centered": "^3.3.2",
+    "@types/storybook__addon-knobs": "^4.0.4",
     "@types/storybook__react": "^4.0.1",
     "babel-loader": "^8.0.5"
   }

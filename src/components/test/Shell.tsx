@@ -6,10 +6,12 @@ import styles from "./Shell.module.scss";
 
 class Shell extends Component {
   render() {
+    const { children } = this.props;
+
     return (
       <div className={styles.shell}>
+        {children} &nbsp;
         <FontAwesomeIcon icon={faCoffee} />
-        Hello World
       </div>
     );
   }

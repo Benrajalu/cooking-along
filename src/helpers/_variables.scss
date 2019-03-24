@@ -1,0 +1,22 @@
+$teal: #e7d5c2;
+$blue: #41c2dd;
+$black: #1d1d1d;
+$smoke: #f8f8f7;
+
+$fontSizeSmall: 1rem;
+$fontSizeMedium: 1.5rem;
+$fontSizeLarge: 2rem;
+
+@mixin lato($size: $fontSizeSmall, $weight: 400, $color: $black) {
+  font-family: "Lato";
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+}
+
+@mixin vollkorn($size: $fontSizeMedium, $weight: 400, $color: $black) {
+  font-family: "Vollkorn";
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+}
