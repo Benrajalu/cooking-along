@@ -1,0 +1,22 @@
+@import "../../../helpers/variables";
+
+.title {
+  @include vollkorn($fontSizeLarge, 400);
+  margin-bottom: 2rem;
+
+  strong {
+    font-weight: 700;
+  }
+
+  &.small {
+    font-size: $fontSizeLarge;
+  }
+
+  &.medium {
+    font-size: $fontSizeLarge * 1.5;
+  }
+
+  &.large {
+    font-size: $fontSizeLarge * 2;
+  }
+}
