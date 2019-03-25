@@ -1,0 +1,66 @@
+@import "../../../helpers/variables";
+
+.richContent {
+  display: block;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Vollkorn";
+    color: $black;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+  }
+
+  h1 {
+    font-size: $fontSizeLarge * 2;
+  }
+
+  h2 {
+    font-size: $fontSizeLarge * 1.5;
+  }
+
+  h3 {
+    font-size: $fontSizeLarge;
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    font-size: $fontSizeMedium;
+  }
+
+  p {
+    @include lato($fontSizeMedium);
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+
+    strong {
+      font-weight: 900;
+    }
+
+    em {
+      font-weight: "400i";
+    }
+  }
+
+  a {
+    color: $blue;
+    text-decoration: underline;
+
+    &:hover {
+      color: $black;
+    }
+  }
+
+  table {
+    display: table;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
