@@ -10,13 +10,19 @@ Hello **world**, how ~~are~~ you [doing](http://www.google.com) today?
 ## We'll be doing some styling now
 So, *italics* work that way.
 We are also doing lists
-* The basic ones
-* Like this one
+* The **basic** ones
+* Like this *one*
 
 But also numbered
 
 1. Test 
 2. Test 
+
+> Blockquotes can work
+> If you ask nicely
+
+
+---
 
 # H1
 ## H2
