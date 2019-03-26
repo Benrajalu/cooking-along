@@ -5,7 +5,7 @@ import centered from "@storybook/addon-centered";
 
 import Title from "./Title";
 
-storiesOf("Title", module)
+storiesOf("Typography/Title", module)
   .addDecorator(centered)
   .addDecorator(withKnobs)
   .add("Default", () => (

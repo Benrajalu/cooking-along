@@ -39,7 +39,7 @@ But also numbered
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |`;
 
-storiesOf("RichContent", module)
+storiesOf("Typography/RichContent", module)
   .addDecorator(centered)
   .addDecorator(withKnobs)
   .add("Default", () => (
