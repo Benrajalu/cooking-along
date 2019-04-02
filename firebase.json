@@ -1,0 +1,17 @@
+{
+  "hosting": [
+    {
+      "target": "default",
+      "public": "build",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    },
+    {
+      "target": "storybook",
+      "public": ".out",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    }
+  ],
+  "storage": {
+    "rules": "storage.rules"
+  }
+}

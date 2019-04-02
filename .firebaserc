@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "cooking-along"
+  },
+  "targets": {
+    "cooking-along": {
+      "hosting": {
+        "default": [
+          "cooking-along"
+        ],
+        "storybook": [
+          "storybook-cooking-along"
+        ]
+      }
+    }
+  }
+}
