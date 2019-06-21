@@ -39,5 +39,5 @@ export interface State {
   recentRecipes: HashMap<Recipe>;
   isUserLogged: boolean;
   user: User | null;
-  currentRecipe: Recipe;
+  currentRecipe: Recipe | null;
 }
