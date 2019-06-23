@@ -1,15 +1,17 @@
-import { Categories } from '../entities';
-import { FETCH_RECENT_RECIPES_REQUEST } from '../actions';
+import { Recipe } from '../entities';
+import { FETCH_RECENT_RECIPES_SUCCESS } from '../actions';
 
 interface FetchRecentRecipesAction {
-  type: typeof FETCH_RECENT_RECIPES_REQUEST;
-  payload: string | null;
+  type: typeof FETCH_RECENT_RECIPES_SUCCESS;
+  payload: Recipe[];
 }
 
-export function fetchRecentRecipes(category?: Categories): RecipeTypes {
+export function fetchRecentRecipesSuccess(
+  recentRecipes: Recipe[],
+): RecipeTypes {
   return {
-    type: FETCH_RECENT_RECIPES_REQUEST,
-    payload: category || null,
+    type: FETCH_RECENT_RECIPES_SUCCESS,
+    payload: recentRecipes,
   };
 }
 

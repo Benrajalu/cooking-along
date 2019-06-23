@@ -3,6 +3,7 @@ import 'firebase/auth';
 import 'firebase/firestore';
 
 import firebaseConfig from './firebaseConfig.js';
+import { Recipe } from './entities.js';
 
 const config = {
   ...firebaseConfig,
