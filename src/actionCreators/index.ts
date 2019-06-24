@@ -1,3 +1,3 @@
-import { RecipeTypes } from './recipes';
+import { RecipeActionTypes } from './recipes';
 
-export type AllActions = RecipeTypes;
+export type AllActions = RecipeActionTypes;
